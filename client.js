@@ -44,7 +44,7 @@ $(document).ready(whenReady);
 function whenReady() {
   console.log('DOM is ready to be manipulated!');
   $('#seeEmployees').on('click', printEmployees);
-} // end readyNow
+} // end whenReady
 
 function calculateBonus(employeeObj){
   let bonusPercentage = 0;
@@ -100,7 +100,7 @@ function printEmployees(){
   let newEmployee = ' ';
   for(let employeeObj of employees){
     newEmployee = JSON.stringify(calculateBonus(employeeObj));
-    elObjects.append(`<li>` + newEmployee + `</li>`);
+    elObjects.append(`<li>` + newEmployee + `</li>`).fadeIn();
   }
 }
 

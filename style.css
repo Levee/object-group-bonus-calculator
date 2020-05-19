@@ -7,6 +7,29 @@ body {
 #seeEmployees {
   background-color: rosybrown;
   border-radius: 10%;
+}
+
+li {
+  text-align: left;
+  margin: 10px;
+  animation-duration: 3s;
+  animation-name: slidein;
   
-  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+img{
+    width: 20%;
+    height: auto;
 }
