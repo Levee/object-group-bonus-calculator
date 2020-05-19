@@ -1,3 +1,12 @@
-body{
-    background-color:lime;
+body {
+  background-color:paleturquoise;
+  padding: 15px;
+  text-align: center;
+}
+
+#seeEmployees {
+  background-color: rosybrown;
+  border-radius: 10%;
+  
+  
 }
