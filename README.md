@@ -34,6 +34,7 @@ Loop over the `employees` array and do the following:
 * use each employee object as the input to the function described below.
 * `console.log` the results of each iteration.
 
+
 ## Function Logic
 
 Write a declared function that takes in one **Employee** object (as an argument to the function), and returns a new **object** with the following properties:
