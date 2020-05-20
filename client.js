@@ -66,12 +66,12 @@ function calculateBonus(employeeObj){
   if (employeeObj.employeeNumber.length === 4) {
     bonusPercentage += 0.05;
   }
-  if (employeeObj.annualSalary > 65000) {
+  if (Number(employeeObj.annualSalary) > 65000) {
       bonusPercentage = bonusPercentage - 0.01;
   }
   if (bonusPercentage > 0.13) {
     bonusPercentage = 0.13;
-  } else if (bonusPercentage <= 2){
+  } else if (bonusPercentage <= 0){
     bonusPercentage = 0;
   }
   // calculate the final bonus and compensation
