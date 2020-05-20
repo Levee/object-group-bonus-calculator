@@ -71,7 +71,7 @@ function calculateBonus(employeeObj){
   }
   if (bonusPercentage > 0.13) {
     bonusPercentage = 0.13;
-  } else if (bonusPercentage <= 0){
+  } else if (bonusPercentage <= 2){
     bonusPercentage = 0;
   }
   // calculate the final bonus and compensation
